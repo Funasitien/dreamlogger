@@ -33,24 +33,24 @@ def debug_mode(value=False):
         debu = False
 
 def info(message):
-    print("[" + color.b + "INFO" + color.k + "]  ", message)
+    print(f"[{color.b}INFO{color.k}]  ", message)
 
 def warn(message):
-    print("[" + color.y + "WARN" + color.k + "]  ", message)
+    print(f"[{color.y}WARN{color.k}]  ", message)
 
 
 def error(message):
-    print("[" + color.r + "ERROR" + color.k + "] ", message)
+    print(f"[{color.r}ERROR{color.k}] ", message)
 
 
 def debug(message, type="fine"):
     if debu == False:
         return
     if type == "error":
-        print("[" + color.r + "DEBUG" + color.k, "] ", message)
+        print(f"[{color.r}DEBUG{color.k}] ", message)
         return
     if type == "warn":
-        print("[" + color.y + "DEBUG" + color.k, "] ", message)
+        print(f"[{color.y}DEBUG{color.k}] ", message)
         return
     else:
-        print("[" + color.g + "DEBUG" + color.k + "] ", message)
+        print(f"[{color.g}DEBUG{color.k}] ", message)
