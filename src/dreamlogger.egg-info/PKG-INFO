@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dreamlogger
+Version: 0.0.2
+Summary: Logs made better.
+Author-email: Funasitien <funasitien@dreamclouds.fr>
+Project-URL: Homepage, https://github.com/Funasitien/dreamlogger
+Project-URL: Issues, https://github.com/Funasitien/dreamlogger/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# DreamLogger
+## An fast and easy way to make your logs *fancy ✨*
